@@ -1,1 +1,70 @@
+from random import choice
 
+Brainrot = [
+    "rizzing",
+    "level 8 tax",
+    "in ohio",
+    "rizz",
+    "sus",
+    "no cap",
+    "fr",
+    "rn",
+    "on god",
+    "legit",
+    "skibidi",
+    "the dog doin",
+    "sigma",
+    "fanum taxed",
+    "baby gronk",
+    "livvy dunne",
+    "tiktok",
+    "yt shorts",
+    "shut yo",
+    "if oranges are",
+    "what the flip",
+    "duke dennis",
+    "yap",
+    "livvy",
+    "adin ross",
+    "baka",
+    "free candy",
+    "emotional damage",
+    "speed",
+    "blud",
+    "aight",
+    "gotcha",
+    "youre lowkey",
+    "packgod",
+    "dop dop",
+    "ermm",
+    "ok dude",
+    "cancelled",
+    "mrbeast",
+    "bro",
+    "really",
+    "said",
+    "gpt",
+    "smurf cat",
+    "mogged",
+    "mogs",
+    "mewing",
+    "mews to",
+    "drink water",
+    "dont leave me here",
+    "micheal",
+    "fortnite",
+    "yeet",
+    "nah",
+    "griddy",
+    "bussin",
+    "lit",
+    "sheesh"
+]
+
+LEVEL = 210 # bigger number more brainrot
+
+Final = ""
+for i in range(LEVEL):
+    Final = Final + choice(Brainrot) + " "
+
+print(Final)
